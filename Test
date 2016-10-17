@@ -1,0 +1,168 @@
+/Applications/Xcode.app/Contents/Developer/usr/bin/make exec_tests
+echo "tests/16_conv_c.spec.c tests/03_conv_d.spec.c tests/50_min_width.spec.c tests/15_conv_X.spec.c tests/70_precision_for_diu.spec.c tests/73_precision_for_cC.spec.c tests/18_mix_all_previous.spec.c tests/90_incomptbl_values_sdpi.spec.c tests/04_conv_p.spec.c tests/43_length_modif_j.spec.c tests/62_flag_space.spec.c tests/14_conv_x.spec.c tests/08_conv_D.spec.c tests/11_conv_O.spec.c tests/bonus_03_wildcard_flag_mix.spec.c tests/91_incomptbl_values_uUSDcC.spec.c tests/07_conv_S.spec.c tests/60_flag_sharp.spec.c tests/61_flag_plus.spec.c tests/06_mix_sdp_percent.spec.c tests/05_percent_escape.spec.c tests/10_conv_o.spec.c tests/74_precision_for_p.spec.c tests/51_min_width_flag_minus.spec.c tests/79_precision_mixed_with_flags.spec.c tests/13_conv_U.spec.c tests/43_length_modif_hh.spec.c tests/bonus_01_wildcard.spec.c tests/41_length_modif_ll.spec.c tests/bonus_10_conv_fF.spec.c tests/71_precision_for_oOxX.spec.c tests/40_length_modif_l.spec.c tests/42_length_modif_h.spec.c tests/53_min_width_non_valid_conv.spec.c tests/01_conv_s_simple.spec.c tests/09_conv_i.spec.c tests/69_flag_mix.spec.c tests/92_incomptbl_values_oOxX.spec.c tests/12_conv_u.spec.c tests/75_precision_for_percent.spec.c tests/72_precision_for_sS.spec.c tests/17_conv_C.spec.c tests/bonus_02_wildcard_multi.spec.c tests/02_conv_s_multiple.spec.c tests/44_length_modif_z.spec.c tests/45_length_modif_edge_cases.spec.c tests/00_no_conv.spec.c tests/52_min_width_flag_zero.spec.c"
+tests/16_conv_c.spec.c tests/03_conv_d.spec.c tests/50_min_width.spec.c tests/15_conv_X.spec.c tests/70_precision_for_diu.spec.c tests/73_precision_for_cC.spec.c tests/18_mix_all_previous.spec.c tests/90_incomptbl_values_sdpi.spec.c tests/04_conv_p.spec.c tests/43_length_modif_j.spec.c tests/62_flag_space.spec.c tests/14_conv_x.spec.c tests/08_conv_D.spec.c tests/11_conv_O.spec.c tests/bonus_03_wildcard_flag_mix.spec.c tests/91_incomptbl_values_uUSDcC.spec.c tests/07_conv_S.spec.c tests/60_flag_sharp.spec.c tests/61_flag_plus.spec.c tests/06_mix_sdp_percent.spec.c tests/05_percent_escape.spec.c tests/10_conv_o.spec.c tests/74_precision_for_p.spec.c tests/51_min_width_flag_minus.spec.c tests/79_precision_mixed_with_flags.spec.c tests/13_conv_U.spec.c tests/43_length_modif_hh.spec.c tests/bonus_01_wildcard.spec.c tests/41_length_modif_ll.spec.c tests/bonus_10_conv_fF.spec.c tests/71_precision_for_oOxX.spec.c tests/40_length_modif_l.spec.c tests/42_length_modif_h.spec.c tests/53_min_width_non_valid_conv.spec.c tests/01_conv_s_simple.spec.c tests/09_conv_i.spec.c tests/69_flag_mix.spec.c tests/92_incomptbl_values_oOxX.spec.c tests/12_conv_u.spec.c tests/75_precision_for_percent.spec.c tests/72_precision_for_sS.spec.c tests/17_conv_C.spec.c tests/bonus_02_wildcard_multi.spec.c tests/02_conv_s_multiple.spec.c tests/44_length_modif_z.spec.c tests/45_length_modif_edge_cases.spec.c tests/00_no_conv.spec.c tests/52_min_width_flag_zero.spec.c
+/Applications/Xcode.app/Contents/Developer/usr/bin/make re -k -C /nfs/2015/a/amaitre/github/ft_printf
+[35mPRINTF:[0m [[31mSuppression des .o[0m]
+[35mPRINTF:[0m [[31mSuppression de libftprintf.a[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_atoi.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_bzero.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_chartostr.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_coltostr.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_delcharinstr.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_gather.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_intlen.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_isalnum.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_isalpha.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_isascii.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_isdigit.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_isprint.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_isspace.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_isupper.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_itoa.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_lstadd.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_lstadd_push_back.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_lstdel.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_lstdelone.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_lstiter.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_lstmap.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_lstnew.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_lstrev.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_memalloc.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_memccpy.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_memchr.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_memcmp.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_memcpy.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_memdel.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_memmove.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_memset.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_nbchar.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_nbword.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_pf_color.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_pf_fctselector.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_pf_function.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_pf_select.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_printf.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_putchar.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_putchar_fd.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_putendl.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_putendl_fd.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_putnbr.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_putnbr_fd.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_putstr.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_putstr_fd.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_putwchar.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_putwchar_fd.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_replace.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_show_tab.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_sqrt.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strcat.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strchr.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strclr.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strcmp.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strcpy.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strdel.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strdup.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strequ.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_striter.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_striteri.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strjoin.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strlcat.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strlen.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strmap.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strmapi.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strncat.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strncmp.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strncpy.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strnequ.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strnew.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strnrev.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strnstr.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strrchr.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strrev.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strsplit.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strstr.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strsub.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strtoupper.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_strtrim.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_tablen.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_tabmalloc.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_tolower.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_toupper.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_wchrtostr.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_without_space_len.o[0m]
+[35mPRINTF:[0m [Compilation:[33m ft_wstrtostr.o[0m]
+[[35m--------------------------[0m]
+[[36m------- OK - PRINTF ------[0m]
+[[35m--------------------------[0m]
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -k -C ../testframework/v3/
+rm -f *.o
+cc -Wall -Werror -Wextra -ggdb -I includes -c srcs/**/*.c
+ar rc libmt_framework.a *.o
+cc -Werror -Wextra -Wall -Wno-format -Wno-format-extra-args -I . -I ../testframework/v3//includes -I /nfs/2015/a/amaitre/github/ft_printf -I /nfs/2015/a/amaitre/github/ft_printf/includes -I /nfs/2015/a/amaitre/github/ft_printf/includes/builtin -I /nfs/2015/a/amaitre/github/ft_printf/libs/libtowel/includes -I /nfs/2015/a/amaitre/github/ft_printf/libft/includes -D__MOULITEST__ -DPROTOTYPES="MT_ADD_PROTO(16_conv_c); MT_ADD_PROTO(03_conv_d); MT_ADD_PROTO(50_min_width); MT_ADD_PROTO(15_conv_X); MT_ADD_PROTO(70_precision_for_diu); MT_ADD_PROTO(73_precision_for_cC); MT_ADD_PROTO(18_mix_all_previous); MT_ADD_PROTO(90_incomptbl_values_sdpi); MT_ADD_PROTO(04_conv_p); MT_ADD_PROTO(43_length_modif_j); MT_ADD_PROTO(62_flag_space); MT_ADD_PROTO(14_conv_x); MT_ADD_PROTO(08_conv_D); MT_ADD_PROTO(11_conv_O); MT_ADD_PROTO(bonus_03_wildcard_flag_mix); MT_ADD_PROTO(91_incomptbl_values_uUSDcC); MT_ADD_PROTO(07_conv_S); MT_ADD_PROTO(60_flag_sharp); MT_ADD_PROTO(61_flag_plus); MT_ADD_PROTO(06_mix_sdp_percent); MT_ADD_PROTO(05_percent_escape); MT_ADD_PROTO(10_conv_o); MT_ADD_PROTO(74_precision_for_p); MT_ADD_PROTO(51_min_width_flag_minus); MT_ADD_PROTO(79_precision_mixed_with_flags); MT_ADD_PROTO(13_conv_U); MT_ADD_PROTO(43_length_modif_hh); MT_ADD_PROTO(bonus_01_wildcard); MT_ADD_PROTO(41_length_modif_ll); MT_ADD_PROTO(bonus_10_conv_fF); MT_ADD_PROTO(71_precision_for_oOxX); MT_ADD_PROTO(40_length_modif_l); MT_ADD_PROTO(42_length_modif_h); MT_ADD_PROTO(53_min_width_non_valid_conv); MT_ADD_PROTO(01_conv_s_simple); MT_ADD_PROTO(09_conv_i); MT_ADD_PROTO(69_flag_mix); MT_ADD_PROTO(92_incomptbl_values_oOxX); MT_ADD_PROTO(12_conv_u); MT_ADD_PROTO(75_precision_for_percent); MT_ADD_PROTO(72_precision_for_sS); MT_ADD_PROTO(17_conv_C); MT_ADD_PROTO(bonus_02_wildcard_multi); MT_ADD_PROTO(02_conv_s_multiple); MT_ADD_PROTO(44_length_modif_z); MT_ADD_PROTO(45_length_modif_edge_cases); MT_ADD_PROTO(00_no_conv); MT_ADD_PROTO(52_min_width_flag_zero); " -DADD_TESTS="MT_ADD_SUITE(mt, 16_conv_c, suite_16_conv_c); MT_ADD_SUITE(mt, 03_conv_d, suite_03_conv_d); MT_ADD_SUITE(mt, 50_min_width, suite_50_min_width); MT_ADD_SUITE(mt, 15_conv_X, suite_15_conv_X); MT_ADD_SUITE(mt, 70_precision_for_diu, suite_70_precision_for_diu); MT_ADD_SUITE(mt, 73_precision_for_cC, suite_73_precision_for_cC); MT_ADD_SUITE(mt, 18_mix_all_previous, suite_18_mix_all_previous); MT_ADD_SUITE(mt, 90_incomptbl_values_sdpi, suite_90_incomptbl_values_sdpi); MT_ADD_SUITE(mt, 04_conv_p, suite_04_conv_p); MT_ADD_SUITE(mt, 43_length_modif_j, suite_43_length_modif_j); MT_ADD_SUITE(mt, 62_flag_space, suite_62_flag_space); MT_ADD_SUITE(mt, 14_conv_x, suite_14_conv_x); MT_ADD_SUITE(mt, 08_conv_D, suite_08_conv_D); MT_ADD_SUITE(mt, 11_conv_O, suite_11_conv_O); MT_ADD_SUITE(mt, bonus_03_wildcard_flag_mix, suite_bonus_03_wildcard_flag_mix); MT_ADD_SUITE(mt, 91_incomptbl_values_uUSDcC, suite_91_incomptbl_values_uUSDcC); MT_ADD_SUITE(mt, 07_conv_S, suite_07_conv_S); MT_ADD_SUITE(mt, 60_flag_sharp, suite_60_flag_sharp); MT_ADD_SUITE(mt, 61_flag_plus, suite_61_flag_plus); MT_ADD_SUITE(mt, 06_mix_sdp_percent, suite_06_mix_sdp_percent); MT_ADD_SUITE(mt, 05_percent_escape, suite_05_percent_escape); MT_ADD_SUITE(mt, 10_conv_o, suite_10_conv_o); MT_ADD_SUITE(mt, 74_precision_for_p, suite_74_precision_for_p); MT_ADD_SUITE(mt, 51_min_width_flag_minus, suite_51_min_width_flag_minus); MT_ADD_SUITE(mt, 79_precision_mixed_with_flags, suite_79_precision_mixed_with_flags); MT_ADD_SUITE(mt, 13_conv_U, suite_13_conv_U); MT_ADD_SUITE(mt, 43_length_modif_hh, suite_43_length_modif_hh); MT_ADD_SUITE(mt, bonus_01_wildcard, suite_bonus_01_wildcard); MT_ADD_SUITE(mt, 41_length_modif_ll, suite_41_length_modif_ll); MT_ADD_SUITE(mt, bonus_10_conv_fF, suite_bonus_10_conv_fF); MT_ADD_SUITE(mt, 71_precision_for_oOxX, suite_71_precision_for_oOxX); MT_ADD_SUITE(mt, 40_length_modif_l, suite_40_length_modif_l); MT_ADD_SUITE(mt, 42_length_modif_h, suite_42_length_modif_h); MT_ADD_SUITE(mt, 53_min_width_non_valid_conv, suite_53_min_width_non_valid_conv); MT_ADD_SUITE(mt, 01_conv_s_simple, suite_01_conv_s_simple); MT_ADD_SUITE(mt, 09_conv_i, suite_09_conv_i); MT_ADD_SUITE(mt, 69_flag_mix, suite_69_flag_mix); MT_ADD_SUITE(mt, 92_incomptbl_values_oOxX, suite_92_incomptbl_values_oOxX); MT_ADD_SUITE(mt, 12_conv_u, suite_12_conv_u); MT_ADD_SUITE(mt, 75_precision_for_percent, suite_75_precision_for_percent); MT_ADD_SUITE(mt, 72_precision_for_sS, suite_72_precision_for_sS); MT_ADD_SUITE(mt, 17_conv_C, suite_17_conv_C); MT_ADD_SUITE(mt, bonus_02_wildcard_multi, suite_bonus_02_wildcard_multi); MT_ADD_SUITE(mt, 02_conv_s_multiple, suite_02_conv_s_multiple); MT_ADD_SUITE(mt, 44_length_modif_z, suite_44_length_modif_z); MT_ADD_SUITE(mt, 45_length_modif_edge_cases, suite_45_length_modif_edge_cases); MT_ADD_SUITE(mt, 00_no_conv, suite_00_no_conv); MT_ADD_SUITE(mt, 52_min_width_flag_zero, suite_52_min_width_flag_zero); " -DRENDU_PATH="\"/nfs/2015/a/amaitre/github/ft_printf\"" tests/16_conv_c.spec.c tests/03_conv_d.spec.c tests/50_min_width.spec.c tests/15_conv_X.spec.c tests/70_precision_for_diu.spec.c tests/73_precision_for_cC.spec.c tests/18_mix_all_previous.spec.c tests/90_incomptbl_values_sdpi.spec.c tests/04_conv_p.spec.c tests/43_length_modif_j.spec.c tests/62_flag_space.spec.c tests/14_conv_x.spec.c tests/08_conv_D.spec.c tests/11_conv_O.spec.c tests/bonus_03_wildcard_flag_mix.spec.c tests/91_incomptbl_values_uUSDcC.spec.c tests/07_conv_S.spec.c tests/60_flag_sharp.spec.c tests/61_flag_plus.spec.c tests/06_mix_sdp_percent.spec.c tests/05_percent_escape.spec.c tests/10_conv_o.spec.c tests/74_precision_for_p.spec.c tests/51_min_width_flag_minus.spec.c tests/79_precision_mixed_with_flags.spec.c tests/13_conv_U.spec.c tests/43_length_modif_hh.spec.c tests/bonus_01_wildcard.spec.c tests/41_length_modif_ll.spec.c tests/bonus_10_conv_fF.spec.c tests/71_precision_for_oOxX.spec.c tests/40_length_modif_l.spec.c tests/42_length_modif_h.spec.c tests/53_min_width_non_valid_conv.spec.c tests/01_conv_s_simple.spec.c tests/09_conv_i.spec.c tests/69_flag_mix.spec.c tests/92_incomptbl_values_oOxX.spec.c tests/12_conv_u.spec.c tests/75_precision_for_percent.spec.c tests/72_precision_for_sS.spec.c tests/17_conv_C.spec.c tests/bonus_02_wildcard_multi.spec.c tests/02_conv_s_multiple.spec.c tests/44_length_modif_z.spec.c tests/45_length_modif_edge_cases.spec.c tests/00_no_conv.spec.c tests/52_min_width_flag_zero.spec.c main.c utils.c   -o ft_printf_test -L../testframework/v3/ -lmt_framework -lftprintf -L /nfs/2015/a/amaitre/github/ft_printf
+/nfs/2015/a/amaitre/42FileChecker/moulitest_42projects/ft_printf_tests/ft_printf_test
+
+--
+
+[36;1m>>>> Tests for ft_printf[0m
+Source: github.com/yyang42/moulitest
+Legend: ([32;1m.[0m) Ok / ([31;1mF[0m) Fail / ([31;1mS[0m) Segfault / ([31;1mB[0m) Bus error / ([31;1mT[0m) Timeout / ([31;1mA[0m) Abort
+
+[ [36;1m-------STARTING ALL UNIT TESTS-------[0m ]
+[33m>>>> [0m16_conv_c.spec.c ------------ [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m03_conv_d.spec.c ------------ [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m50_min_width.spec.c --------- [31;1m[FAIL][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1mF[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1m [FAIL] min_width_c -> printf("{%3c}", 0)[0m
+[33m>>>> [0m15_conv_X.spec.c ------------ [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m70_precision_for_diu.spec.c - [31;1m[FAIL][0m [31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1m [FAIL] test_precision_d -> printf("%.4d", 42)[0m
+[33m>>>> [0m73_precision_for_cC.spec.c -- [31;1m[FAIL][0m [31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1m [FAIL] cNullChar -> printf("%.c", 0)[0m
+[33m>>>> [0m18_mix_all_previous.spec.c -- [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m
+[33m>>>> [0m90_incomptbl_values_sdpi.spec [31;1m[FAIL][0m [31;1mF[0m[31;1mF[0m[31;1mF[0m[32;1m.[0m[31;1m [FAIL] test_hhd -> printf("%hhd - %hhd", SHRT_MAX - 42, SHRT_MAX - 4200)[0m
+[33m>>>> [0m04_conv_p.spec.c ------------ [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m43_length_modif_j.spec.c ---- [31;1m[FAIL][0m [31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1m [FAIL] test_jd_simple -> printf("%jd%jd", 0, 42)[0m
+
+TEST: test_err_hhc_up_max
+=====   printf_out  =====
+ret: 6
+
+=========================
+[33m>>>> [0m62_flag_space.spec.c -------- [31;1m[FAIL][0m [31;1mF[0m[32;1m.[0m[31;1mF[0m[32;1m.[0m[32;1m.[0m[31;1mF[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1mF[0m[31;1mF[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1mF[0m[31;1m [FAIL] test_space_d_simple -> printf("% d", 9999)[0m
+[33m>>>> [0m14_conv_x.spec.c ------------ [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m08_conv_D.spec.c ------------ [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m11_conv_O.spec.c ------------ [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0mbonus_03_wildcard_flag_mix.sp [31;1m[FAIL][0m [31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1m [FAIL] digit_wildcard_and_min_width_value1 -> printf("{%3*d}", 0, 0)[0m
+[33m>>>> [0m91_incomptbl_values_uUSDcC.sp [31;1m[FAIL][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1mF[0m[32;1m.[0m[31;1mF[0m[31;1m [FAIL] test_big_char -> printf("%c", 200)[0m
+[33m>>>> [0m07_conv_S.spec.c ------------ [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m60_flag_sharp.spec.c -------- [31;1m[FAIL][0m [31;1mF[0m[32;1m.[0m[31;1mF[0m[31;1mF[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1mF[0m[31;1m [FAIL] test_octal_simple -> printf("%#o", 42)[0m
+[33m>>>> [0m61_flag_plus.spec.c --------- [31;1m[FAIL][0m [31;1mS[0m[32;1m.[0m[31;1mS[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1m [SEGV] test_plus_d_simple -> (null)[0m
+[33m>>>> [0m06_mix_sdp_percent.spec.c --- [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m
+[33m>>>> [0m05_percent_escape.spec.c ---- [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m10_conv_o.spec.c ------------ [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m74_precision_for_p.spec.c --- [31;1m[FAIL][0m [31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1m [FAIL] pNullPointer_zeroPrecision -> printf("%.0p, %.p", 0, 0)[0m
+[33m>>>> [0m51_min_width_flag_minus.spec. [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m79_precision_mixed_with_flags [31;1m[FAIL][0m [31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[32;1m.[0m[32;1m.[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1m [FAIL] test_precision_o_sharp_zero -> printf("%#.o, %#.0o", 0, 0)[0m
+[33m>>>> [0m13_conv_U.spec.c ------------ [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m43_length_modif_hh.spec.c --- [31;1m[FAIL][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1mF[0m[32;1m.[0m[31;1m [FAIL] test_err_hhc_up_max -> printf("%hhC, %hhC", 0, L'米')[0m
+[33m>>>> [0mbonus_01_wildcard.spec.c ---- [31;1m[FAIL][0m [31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1m [FAIL] wildcard_for_min_width_positive -> printf("%*d", 5, 42)[0m
+[33m>>>> [0m41_length_modif_ll.spec.c --- [31;1m[FAIL][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1m [FAIL] test_llo_unsign_long_long_max -> printf("%llo, %llo", 0, ULLONG_MAX)[0m
+[33m>>>> [0mbonus_10_conv_fF.spec.c ----- [31;1m[FAIL][0m [31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1m [FAIL] simple_small_nbr -> printf("{%f}{%F}", 1.42, 1.42)[0m
+[33m>>>> [0m71_precision_for_oOxX.spec.c  [31;1m[FAIL][0m [31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1m [FAIL] test_precision_o -> printf("%.4o", 42)[0m
+[33m>>>> [0m40_length_modif_l.spec.c ---- [31;1m[FAIL][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1m [FAIL] test_lo_long_unsigned_max -> printf("%lo, %lo", 0, ULONG_MAX)[0m
+[33m>>>> [0m42_length_modif_h.spec.c ---- [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m53_min_width_non_valid_conv.s [32;1m[Ok !][0m [32;1m.[0m
+[33m>>>> [0m01_conv_s_simple.spec.c ----- [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m09_conv_i.spec.c ------------ [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m69_flag_mix.spec.c ---------- [31;1m[FAIL][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1mF[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1mF[0m[31;1mF[0m[31;1m [FAIL] mix_space_zero -> printf("{% 03d}", 0)[0m
+[33m>>>> [0m92_incomptbl_values_oOxX.spec [31;1m[FAIL][0m [31;1mF[0m[32;1m.[0m[31;1mF[0m[32;1m.[0m[31;1mF[0m[32;1m.[0m[32;1m.[0m[31;1m [FAIL] test_octal_neg -> printf("%o, %ho, %hho", -42, -42, -42)[0m
+[33m>>>> [0m12_conv_u.spec.c ------------ [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m75_precision_for_percent.spec [31;1m[FAIL][0m [31;1mF[0m[31;1m [FAIL] percent_point3precision -> printf("%.3%")[0m
+[33m>>>> [0m72_precision_for_sS.spec.c -- [31;1m[FAIL][0m [31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1m [FAIL] test_precision_s -> printf("%.4s", "42")[0m
+[33m>>>> [0m17_conv_C.spec.c ------------ [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0mbonus_02_wildcard_multi.spec. [31;1m[FAIL][0m [31;1mF[0m[31;1m [FAIL] wildcard_for_min_width_positive -> printf("%*.*d", 0, 3, 0)[0m
+[33m>>>> [0m02_conv_s_multiple.spec.c --- [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m44_length_modif_z.spec.c ---- [31;1m[FAIL][0m [31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1mF[0m[31;1m [FAIL] test_zd_simple -> printf("%zd%zd", 0, 42)[0m
+[33m>>>> [0m45_length_modif_edge_cases.sp [32;1m[Ok !][0m [32;1m.[0m
+[33m>>>> [0m00_no_conv.spec.c ----------- [32;1m[Ok !][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m
+[33m>>>> [0m52_min_width_flag_zero.spec.c [31;1m[FAIL][0m [32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1mF[0m[31;1mF[0m[32;1m.[0m[32;1m.[0m[32;1m.[0m[31;1m [FAIL] char_posMinWidth_zeroFlag -> printf("{%03c}", 0)[0m
+[ [36;1m----------END OF UNIT TESTS----------[0m ]
+
+[31;1m>>>> Result: 23/48 test suites passed. 221/396 tests passed (dots).[0m
+
